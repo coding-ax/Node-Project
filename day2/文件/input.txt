@@ -1,0 +1,14 @@
+F:\Node Projects\day2\全局对象
+Hello World
+0:C:\Program Files\nodejs\node.exe
+1:F:\Node Projects\day2\全局对象\index.js
+C:\Program Files\nodejs\node.exe
+win32
+{
+  rss: 19640320,
+  heapTotal: 4911104,
+  heapUsed: 2685336,
+  external: 876292
+}
+当前版本:v12.16.0
+当前目录：F:\Node Projects\day2\全局对象
