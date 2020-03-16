@@ -1,0 +1,25 @@
+稳如泰山
+稳如老狗
+Microsoft Windows [版本 10.0.18362.720]
+(c) 2019 Microsoft Corporation。保留所有权利。
+
+F:\Node Projects\day2\Stream\pipe>node clone
+程序结束
+
+F:\Node Projects\day2\Stream\pipe>node clone
+程序结束
+
+F:\Node Projects\day2\Stream\pipe>node clone
+程序结束
+
+F:\Node Projects\day2\Stream\pipe>node clone
+程序结束
+
+F:\Node Projects\day2\Stream\pipe>node clone
+程序结束
+
+F:\Node Projects\day2\Stream\pipe>node clone
+程序结束
+
+F:\Node Projects\day2\Stream\pipe>node clone
+程序结束
