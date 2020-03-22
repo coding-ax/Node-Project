@@ -22,7 +22,6 @@ var fs = require('fs');
 
 
 var url = 'http://api.guaqb.cn/v1/onesaid/'
-url='http://www.39shubao.com/files/article/html/40/40504/202587.html'
 
 // 发送Get请求
 // 第一个参数:请求的完整URL,包括参数
