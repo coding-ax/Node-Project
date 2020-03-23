@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "koa2-cors": "^2.0.6"
+  }
+}
