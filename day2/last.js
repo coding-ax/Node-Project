@@ -1,6 +1,5 @@
 var events = require("events");
 var eventEmitter = new events.EventEmitter();
-
 function listen1() {
   console.log("listen1 start ");
 }
