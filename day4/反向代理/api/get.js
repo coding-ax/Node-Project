@@ -5,10 +5,7 @@ var cors = require('koa2-cors');
 
 var path = "";
 var app = new Koa();
-
 app.use(cors());
-
-
 var ans = {};
 function agent(path) {
   superagent
@@ -31,4 +28,7 @@ function agent(path) {
 
 
 console.log("server start at http://localhost:3000");
-agent("https://v1.alapi.cn/api/zhihu/latest");
+setTimeout(() => {
+  agent("https://v1.alapi.cn/api/zhihu/latest");
+}, 10000000);
+
