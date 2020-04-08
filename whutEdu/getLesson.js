@@ -1,20 +1,16 @@
-var Koa = require("koa");
-var superagent = require("superagent");
+var Koa = require('koa');
 var cors = require('koa2-cors');
-
-
+var superagent = require('superagent');
 var path = "";
 var app = new Koa();
 app.use(cors());
-var ans = {};
+var ans = null;
 function agent(path) {
-  console.log(app);
   superagent
     .get(path)
     .then(res => {
       // console.log(res.text);
       ans = JSON.parse(res.text);
-      console.log(ans);
     })
     .then(res => {
       app.use(async (ctx, next) => {
@@ -23,13 +19,11 @@ function agent(path) {
         ctx.response.body = ans;
       });
 
-      app.listen(5050);
+      app.listen(9000);
     });
 }
+// "http://47.102.197.109:8888/api/course?un=0121810870217&pwd=AX.xgp000908"
 
-
-console.log("server start at http://localhost:5050");
-setTimeout(() => {
-  agent("https://v1.alapi.cn/api/zhihu/latest");
-}, 10000000);
+console.log("server start at http://localhost:9000");
+// agent("http://47.102.197.109:8888/api/course?un=0121810870217&pwd=AX.xgp000908");
 
